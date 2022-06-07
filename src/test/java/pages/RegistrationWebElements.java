@@ -18,14 +18,14 @@ public class RegistrationWebElements {
     WebDriver driver;
     WebDriverWait wait;
     Faker faker = new Faker();
-    String firstName = faker.name().firstName();
+    String firstName = "Muhammad";
     String middleName = faker.name().firstName();
-    String lastName = faker.name().lastName();
+    String lastName = "Waqas";
     String address = faker.address().streetAddress();
     String city = faker.address().city();
     String state = faker.address().state();
     String postCode = faker.address().zipCode();
-    String email = firstName + "@mailinator.com";
+    String email = "mwaqas7456@gmail.com";
     @FindBy(xpath = "//*[@id='modalHeader']/h1")
     WebElement form;
     @FindBy(id = "first_4")

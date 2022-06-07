@@ -47,7 +47,6 @@ public class StepDefinitions {
     public void user_insert_values_at_first_name_middle_name_last_name_and_email_field() {
         registrationWebElements = new RegistrationWebElements(driver);
         registrationWebElements.firstNameFieldTextInsert();
-        registrationWebElements.middleNameFieldTextInsert();
         registrationWebElements.lastNameFieldTextInsert();
         registrationWebElements.cityFieldTextInsert();
         registrationWebElements.stateFieldTextInsert();
