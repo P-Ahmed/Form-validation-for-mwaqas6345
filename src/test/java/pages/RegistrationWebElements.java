@@ -66,10 +66,6 @@ public class RegistrationWebElements {
     }
 
     public void finalFormAssertion() throws InterruptedException {
-//        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-//        wait.until(ExpectedConditions.elementToBeClickable(useTemplate));
-//        String text = useTemplate.getText();
-//        Assert.assertEquals(text, "Use Template");
         Thread.sleep(5000);
         String text = driver.findElement(By.id("header_1")).getText();
         System.out.println(text);
